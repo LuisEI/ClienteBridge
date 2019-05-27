@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Low Limit"
+            android:layout_gravity="center"/>
+
+        <NumberPicker
+            android:id="@+id/LimitLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="High Limit"
+            android:layout_gravity="center"/>
+
+        <NumberPicker
+            android:id="@+id/LimitHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnLimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Limit" />
+
+    <TextView
+        android:id="@+id/txtMeas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="16.4"
+        android:textAlignment="center"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMeas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medir" />
+
+
+
+</LinearLayout>
